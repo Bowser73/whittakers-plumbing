@@ -1,0 +1,139 @@
+/* === Navigation Styling === */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  width: 150px;
+  display: block;
+  background-color: #223344;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #112233;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover,
+#current-page {
+  background-color: #445566;
+  color: #ffcc00;
+  border-color: #334455;
+}
+
+/* === Custom Class === */
+.highlight {
+  color: #00ff00;
+  font-weight: bold;
+}
+
+/* === General Layout === */
+header {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e0e0e0;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* === Images === */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+
+}
+form {
+  background: #f6f9fb; /* light blue background for the form */
+  border: 2px solid #0077cc; /* blue border */
+  border-radius: 12px;
+  width: 450px;
+  max-width: 98%;
+  padding: 28px 24px;
+  margin: 32px auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+}
+
+fieldset {
+  border: 2px solid #39ff14; /* lime green border */
+  background: #fff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 18px;
+}
+
+legend {
+  color: #0077cc; /* blue */
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 0 10px;
+}
+
+label {
+  display: block;
+  color: #222;
+  font-weight: 600;
+  margin: 14px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 12px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 1em;
+  background: #f7f7f7;
+  box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 6px;
+}
+
+textarea {
+  min-height: 70px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background: #39ff14;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 10px 28px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+input[type="submit"]:hover {
+  background: #0077cc;
+  color: #fff;
+}

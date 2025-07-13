@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Whittaker's Plumbing and Underground - Contact</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Whittaker's Plumbing and Underground logo">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#" id="current-page">Contact</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h1>Contact Us</h1>
+    <p>Get in touch for all your underground plumbing and excavation needs. We’re ready to help you plan and execute your next project.</p>
+    
+    <img src="images/pipe-install.jpg" alt="Plumber installing pipe under sink">
+
+    <p>Call us at (555) 123-4567 or email us at contact@whittakersplumbing.com.</p>
+
+    <!-- FORM STARTS HERE -->
+    <h2>Schedule a Service Appointment</h2>
+    <p>Please fill out the form below and we’ll get back to you as soon as possible.</p>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label for="name">Full Name*</label>
+        <input type="text" id="name" name="name" placeholder="John Doe" required>
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+        <label for="phone">Phone Number*</label>
+        <input type="tel" id="phone" name="phone" placeholder="(555) 555-5555" required>
+      </fieldset>
+      <fieldset>
+        <legend>Appointment Details</legend>
+        <label for="date">Preferred Date*</label>
+        <input type="date" id="date" name="date" required>
+        <label for="service">Type of Service*</label><br>
+        <input type="radio" id="plumbing" name="service" value="plumbing" required>
+        <label for="plumbing">Plumbing</label>
+        <input type="radio" id="underground" name="service" value="underground">
+        <label for="underground">Underground</label>
+        <input type="radio" id="other" name="service" value="other">
+        <label for="other">Other</label>
+        <label for="contact_method">Preferred Contact Method</label>
+        <select id="contact_method" name="contact_method">
+          <option value="email">Email</option>
+          <option value="phone">Phone</option>
+          <option value="text">Text</option>
+        </select>
+        <label>
+          <input type="checkbox" name="subscribe" value="yes">
+          Subscribe to our newsletter
+        </label>
+        <label for="details">Additional Details</label>
+        <textarea id="details" name="details" rows="4" placeholder="Describe your issue..."></textarea>
+      </fieldset>
+      <input type="submit" value="Submit Request">
+    </form>
+    <!-- FORM ENDS HERE -->
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Whittaker's Plumbing and Underground. All rights reserved.</p>
+  </footer>
+</body>
+</html>
