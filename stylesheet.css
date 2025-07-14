@@ -137,3 +137,97 @@ input[type="submit"]:hover {
   background: #0077cc;
   color: #fff;
 }
+/* ========== Modern Section Look ========== */
+section {
+  background: #f6fafd;
+  border-radius: 18px;
+  padding: 36px 28px;
+  margin: 36px auto;
+  box-shadow: 0 3px 16px rgba(0,0,0,0.08);
+  max-width: 950px;
+}
+
+/* ========== Stylish Navigation ========== */
+nav ul li a {
+  text-decoration: none;
+  width: 170px;
+  display: block;
+  background: linear-gradient(90deg, #223344 70%, #0077cc 100%);
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 4px 0;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  border: none;
+  box-shadow: 0 2px 8px rgba(34,51,68,0.05);
+  transition: background 0.3s, color 0.3s, box-shadow 0.2s;
+}
+
+nav ul li a:hover,
+#current-page {
+  background: #39ff14;
+  color: #223344;
+  font-weight: bold;
+  box-shadow: 0 2px 14px rgba(57,255,20,0.15);
+}
+
+/* ========== Cards for Services/Features ========== */
+.card {
+  background: #fff;
+  border: 1.5px solid #0077cc;
+  border-radius: 15px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.09);
+  padding: 30px 22px;
+  margin-bottom: 32px;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+.card:hover {
+  box-shadow: 0 6px 32px rgba(0,0,0,0.15);
+  border-color: #39ff14;
+}
+
+/* ========== Call to Action Button ========== */
+.cta-btn {
+  background: linear-gradient(90deg, #39ff14 45%, #0077cc 100%);
+  color: #222;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.15em;
+  font-weight: bold;
+  padding: 14px 36px;
+  cursor: pointer;
+  box-shadow: 0 2px 14px rgba(57,255,20,0.08);
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s, transform 0.1s;
+}
+.cta-btn:hover {
+  background: #0077cc;
+  color: #fff;
+  transform: translateY(-2px) scale(1.04);
+}
+
+/* ========== Footer Polish ========== */
+footer {
+  text-align: center;
+  padding: 22px 8px;
+  background: #223344;
+  color: #fff;
+  letter-spacing: 1.2px;
+  font-size: 1em;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  margin-top: 40px;
+  box-shadow: 0 -4px 18px rgba(0,0,0,0.09);
+}
+img {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.09);
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
